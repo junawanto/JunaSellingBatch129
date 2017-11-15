@@ -1,0 +1,74 @@
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\Selling.Web.dll.config
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\Selling.Web.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\Selling.Web.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\Selling.Repo.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\Selling.ViewModel.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Helpers.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Mvc.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Razor.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Webpages.Deployment.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Webpages.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Webpages.Razor.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\Selling.Repo.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\Selling.ViewModel.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Razor.xml
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Webpages.xml
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Webpages.Deployment.xml
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Webpages.Razor.xml
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Helpers.xml
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\System.Web.Mvc.xml
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\obj\Debug\Selling.Web.csprojResolveAssemblyReference.cache
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\obj\Debug\Selling.Web.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\obj\Debug\Selling.Web.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\Selling.Model.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\EntityFramework.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\Selling.Model.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\EntityFramework.xml
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\EntityFramework.SqlServer.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Selling.Web.dll.config
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Selling.Web.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Selling.Web.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\EntityFramework.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Selling.Repo.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Selling.ViewModel.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Helpers.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Mvc.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Razor.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Webpages.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Selling.Model.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Selling.Repo.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Selling.ViewModel.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\EntityFramework.xml
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Razor.xml
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Webpages.xml
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Helpers.xml
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\System.Web.Mvc.xml
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Selling.Model.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\obj\Debug\Selling.Web.csprojResolveAssemblyReference.cache
+C:\Users\Jun\Desktop\Selling\Selling.Web\obj\Debug\Selling.Web.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\obj\Debug\Selling.Web.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Selling.Commonly.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Selling.Commonly.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\CommonServiceLocator.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.Abstractions.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.Configuration.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.Container.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.Interception.Configuration.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.Interception.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.RegistrationByConvention.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.ServiceLocation.dll
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\CommonServiceLocator.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.Abstractions.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.Configuration.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.Container.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.Interception.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.Interception.Configuration.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.RegistrationByConvention.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Web\bin\Unity.ServiceLocation.pdb

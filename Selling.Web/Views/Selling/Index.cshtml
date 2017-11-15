@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "List Selling";
+}
+
+<h2>Index</h2>
+
+<div id="idTblSelling">
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: '/Ajax/GetListSelling',
+            type: 'GET',
+            success: function (model) {
+                $('#idTblSelling').html(model);
+            }
+        });
+    });
+</script>

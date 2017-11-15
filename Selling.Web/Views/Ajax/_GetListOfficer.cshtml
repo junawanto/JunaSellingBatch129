@@ -1,0 +1,124 @@
+﻿@model IEnumerable<Selling.ViewModel.tblOfficer>
+
+    
+           @*@Html.ActionLink("Buat Baru", "Create")*@
+            <button class="btn btn-info" id="idbtnCreateOfficer" style="margin-bottom:10px">
+                Buat Baru
+            </button>
+        <table class="table" id="idTableOfficer">
+            <thead>
+    <tr>
+        <th>
+            Officer Name
+        </th>
+        <th>
+            Password
+        </th>
+        <th>
+            Status
+        </th>
+        <th>
+            Option
+        </th>
+    </tr>
+                </thead><tbody>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OfficerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OfficerPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OfficerStatus)
+            </td>
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { id = item.OfficerCode })*@
+                <button class="btn btn-success btnEditOfficer" data-officercode="@item.OfficerCode">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                </button> |
+                @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })*@
+                <button class="btn btn-primary btnDetailOfficer" data-officercode="@item.OfficerCode">
+                    <span class="glyphicon glyphicon-zoom-in"></span>
+                </button>|
+                @*@Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+                <button class="btn btn-danger btnDeleteOfficer" data-officercode="@item.OfficerCode">
+                    <span class="glyphicon glyphicon-trash"> </span>
+
+                </button>
+            </td>
+        </tr>
+    }
+</tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+        $('#idTableOfficer').dataTable();
+    });
+    $("#idbtnCreateOfficer").click(function () {
+        //alert("trigger dari button");
+        //$('#idModalCreateDataOfficer').modal("show");
+        $.ajax({
+            url: '/Ajax/AddDataOfficer',
+            type: 'GET',
+            success: function (model) {
+                $('#idModalBodyCreateDataOfficer').html(model);
+                $('#idModalCreateDataOfficer').modal();
+            }
+        })
+    });
+    $('.btnEditOfficer').click(function () {
+        debugger;
+        var vEditOfficer = $(this).attr("data-officercode");
+        //alert(vEditOfficer);
+        $.ajax({
+            url: '/Ajax/EditDataOfficer',
+            data: { code: vEditOfficer },
+            type: 'GET',
+            success: function (model) {
+                debugger;
+                $('#idModalBodyUpdateDataOfficer').html(model);
+                $('#idModalUpdateDataOfficer').modal();
+            },
+            error: function (model) {
+                debugger;
+            }
+        })
+    });
+    $('.btnDetailOfficer').click(function () {
+        var vDetailOfficer = $(this).attr("data-officercode");
+        alert(vDetailOfficer);
+    });
+
+    $('.btnDeleteOfficer').click(function () {
+        debugger;
+        var vDeleteOfficerCode = $(this).attr("data-officercode");
+        if (confirm("Apakah anda yakin?")) {
+            $.ajax({
+                url: '/Officer/Delete',
+                type: 'GET',
+                data: {kodeOfficer:vDeleteOfficerCode},
+                success: function (model) {
+                    debugger;
+                    if (model.pesan = "Sukses") {
+                        alert("Data Berhasil Dihapus");
+                        //$('#idModalUpdateDataOfficer').modal("hide");
+                        window.location.href = "/Officer/Index"; //reload halaman index ke officer
+                    }
+                    else {
+                        alert("Data Gagal Dihapus");
+                    }
+                }
+            });
+        }
+    });
+
+</script>
+
+
+
+    

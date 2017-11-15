@@ -1,0 +1,10 @@
+D:\XSIS\Batch 129\Day 13\Selling\Selling.ViewModel\bin\Debug\Selling.ViewModel.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.ViewModel\bin\Debug\Selling.ViewModel.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.ViewModel\obj\Debug\Selling.ViewModel.csprojResolveAssemblyReference.cache
+D:\XSIS\Batch 129\Day 13\Selling\Selling.ViewModel\obj\Debug\Selling.ViewModel.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.ViewModel\obj\Debug\Selling.ViewModel.pdb
+C:\Users\Jun\Desktop\Selling\Selling.ViewModel\bin\Debug\Selling.ViewModel.dll
+C:\Users\Jun\Desktop\Selling\Selling.ViewModel\bin\Debug\Selling.ViewModel.pdb
+C:\Users\Jun\Desktop\Selling\Selling.ViewModel\obj\Debug\Selling.ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\Jun\Desktop\Selling\Selling.ViewModel\obj\Debug\Selling.ViewModel.dll
+C:\Users\Jun\Desktop\Selling\Selling.ViewModel\obj\Debug\Selling.ViewModel.pdb

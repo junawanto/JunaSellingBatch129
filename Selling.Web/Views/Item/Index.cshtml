@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div id="idListItem">
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        //alert("Hello dari javascript");
+        $.ajax({
+            url: '/Ajax/GetListItem',
+            type: 'GET',
+            success: function (model) {
+                $('#idListItem').html(model);
+            },
+            error: function (model) {
+                debugger;
+            }
+        });
+    });
+    //$(function () {
+    //    $("#tabel").dataTable();
+    //})
+</script>

@@ -1,0 +1,42 @@
+﻿@model Selling.ViewModel.tblOfficer
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new {id="IdFormEditOfficer" }))
+{
+    @Html.HiddenFor(model => model.tblOfficerID, new { @class = "form-control" })
+    
+    <div class="form-group">
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.OfficerCode, new { @class = "control-label" })
+        </div>
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.OfficerCode, new { @class = "form-control" })
+        </div>        
+    </div>
+    
+    <div class="form-group">
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.OfficerName, new { @class = "control-label" })
+        </div>
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.OfficerName, new { @class = "form-control" })
+        </div>        
+    </div>
+    
+    <div class="form-group">
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.OfficerPassword, new { @class = "control-label" })
+        </div>
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.OfficerPassword, new { @class = "form-control" })
+        </div>        
+    </div>
+    
+    <div class="form-group">
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.OfficerStatus, new { @class = "control-label" })
+        </div>
+        <div class="col-md-8">
+            @Html.EditorFor(model => model.OfficerStatus, new { @class = "form-control" })
+        </div>        
+    </div>
+}

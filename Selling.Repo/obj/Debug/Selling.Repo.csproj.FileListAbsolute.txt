@@ -1,0 +1,28 @@
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\bin\Debug\Selling.Repo.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\bin\Debug\Selling.Repo.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\bin\Debug\Selling.Model.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\bin\Debug\Selling.ViewModel.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\bin\Debug\EntityFramework.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\bin\Debug\Selling.Model.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\bin\Debug\Selling.ViewModel.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\bin\Debug\EntityFramework.xml
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\obj\Debug\Selling.Repo.csprojResolveAssemblyReference.cache
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\obj\Debug\Selling.Repo.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\obj\Debug\Selling.Repo.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\bin\Debug\Selling.Repo.dll.config
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\bin\Debug\EntityFramework.SqlServer.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Repo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jun\Desktop\Selling\Selling.Repo\obj\Debug\Selling.Repo.csprojResolveAssemblyReference.cache
+C:\Users\Jun\Desktop\Selling\Selling.Repo\obj\Debug\Selling.Repo.dll
+C:\Users\Jun\Desktop\Selling\Selling.Repo\obj\Debug\Selling.Repo.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Repo\bin\Debug\Selling.Repo.dll.config
+C:\Users\Jun\Desktop\Selling\Selling.Repo\bin\Debug\Selling.Repo.dll
+C:\Users\Jun\Desktop\Selling\Selling.Repo\bin\Debug\Selling.Repo.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Repo\bin\Debug\EntityFramework.dll
+C:\Users\Jun\Desktop\Selling\Selling.Repo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jun\Desktop\Selling\Selling.Repo\bin\Debug\Selling.Model.dll
+C:\Users\Jun\Desktop\Selling\Selling.Repo\bin\Debug\Selling.ViewModel.dll
+C:\Users\Jun\Desktop\Selling\Selling.Repo\bin\Debug\Selling.Model.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Repo\bin\Debug\Selling.ViewModel.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Repo\bin\Debug\EntityFramework.xml
+C:\Users\Jun\Desktop\Selling\Selling.Repo\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,131 @@
+﻿@model IEnumerable<Selling.ViewModel.tblItem>
+
+<button class="btn btn-info" id="idbtnCreateItem" style="margin-bottom:10px">
+    Buat Baru
+</button>
+<table class="table table-striped table-bordered" id="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ItemName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BuyingPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SellingPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ItemAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pieces)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ItemName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BuyingPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SellingPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ItemAmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pieces)
+                </td>
+                <td>
+                    @*@Html.ActionLink("Edit", "Edit", new { id = item.OfficerCode })*@
+                    <button class="btn btn-success btnEditItem" data-itemcode="@item.ItemCode">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                    </button> |
+                    @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })*@
+                    <button class="btn btn-primary btnDetailItem" data-itemcode="@item.ItemCode">
+                        <span class="glyphicon glyphicon-zoom-in"></span>
+                    </button>|
+                    @*@Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+                    <button class="btn btn-danger btnDeleteItem" data-itemcode="@item.ItemCode">
+                        <span class="glyphicon glyphicon-trash"> </span>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+
+</table>
+
+<script>
+    $(function () {
+        $("#table").dataTable();
+    })
+    $("#idbtnCreateItem").click(function () {
+        //alert("trigger dari button");
+        //$('#idModalCreateDataOfficer').modal("show");
+        $.ajax({
+            url: '/Ajax/AddDataItem',
+            type: 'GET',
+            success: function (model) {
+                $('#idModalBodyCreateDataItem').html(model);
+                $('#idModalCreateDataItem').modal();
+            }
+        })
+    });
+
+    $('.btnEditItem').click(function () {
+        debugger;
+        var vEditItem = $(this).attr("data-itemcode");
+        //alert(vEditOfficer);
+        $.ajax({
+            url: '/Ajax/EditDataItem',
+            data: { code: vEditOfficer },
+            type: 'GET',
+            success: function (model) {
+                debugger;
+                $('#idModalBodyUpdateDataItem').html(model);
+                $('#idModalUpdateDataItem').modal();
+            },
+            error: function (model) {
+                debugger;
+            }
+        })
+    });
+
+    $('.btnDetailOfficer').click(function () {
+        var vDetailItem = $(this).attr("data-itemcode");
+        alert(vDetailItem);
+    });
+
+    $('.btnDeleteItem').click(function () {
+        debugger;
+        var vDeleteItemCode = $(this).attr("data-itemcode");
+        if (confirm("Apakah anda yakin?")) {
+            $.ajax({
+                url: '/Item/Delete',
+                type: 'GET',
+                data: { kodeOfficer: vDeleteOfficerCode },
+                success: function (model) {
+                    debugger;
+                    if (model.pesan = "Sukses") {
+                        alert("Data Berhasil Dihapus");
+                        //$('#idModalUpdateDataOfficer').modal("hide");
+                        window.location.href = "/Item/Index"; //reload halaman index ke officer
+                    }
+                    else {
+                        alert("Data Gagal Dihapus");
+                    }
+                }
+            });
+        }
+    });
+</script>

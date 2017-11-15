@@ -1,0 +1,9 @@
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Commonly\bin\Debug\Selling.Commonly.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Commonly\bin\Debug\Selling.Commonly.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Commonly\obj\Debug\Selling.Commonly.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Commonly\obj\Debug\Selling.Commonly.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Commonly\bin\Debug\Selling.Commonly.dll
+C:\Users\Jun\Desktop\Selling\Selling.Commonly\bin\Debug\Selling.Commonly.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Commonly\obj\Debug\Selling.Commonly.csprojResolveAssemblyReference.cache
+C:\Users\Jun\Desktop\Selling\Selling.Commonly\obj\Debug\Selling.Commonly.dll
+C:\Users\Jun\Desktop\Selling\Selling.Commonly\obj\Debug\Selling.Commonly.pdb

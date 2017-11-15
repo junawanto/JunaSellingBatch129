@@ -1,0 +1,20 @@
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Model\bin\Debug\Selling.Model.dll.config
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Model\bin\Debug\Selling.Model.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Model\bin\Debug\Selling.Model.pdb
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Model\bin\Debug\EntityFramework.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Model\bin\Debug\EntityFramework.xml
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Model\obj\Debug\Selling.Model.csprojResolveAssemblyReference.cache
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Model\obj\Debug\Selling.Model.dll
+D:\XSIS\Batch 129\Day 13\Selling\Selling.Model\obj\Debug\Selling.Model.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Model\bin\Debug\Selling.Model.dll.config
+C:\Users\Jun\Desktop\Selling\Selling.Model\bin\Debug\Selling.Model.dll
+C:\Users\Jun\Desktop\Selling\Selling.Model\bin\Debug\Selling.Model.pdb
+C:\Users\Jun\Desktop\Selling\Selling.Model\bin\Debug\EntityFramework.dll
+C:\Users\Jun\Desktop\Selling\Selling.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jun\Desktop\Selling\Selling.Model\bin\Debug\EntityFramework.xml
+C:\Users\Jun\Desktop\Selling\Selling.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jun\Desktop\Selling\Selling.Model\obj\Debug\Selling.Model.csprojResolveAssemblyReference.cache
+C:\Users\Jun\Desktop\Selling\Selling.Model\obj\Debug\Selling.Model.dll
+C:\Users\Jun\Desktop\Selling\Selling.Model\obj\Debug\Selling.Model.pdb
